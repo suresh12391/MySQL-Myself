@@ -1,10 +1,10 @@
 NOTE:
 =====
-
+```
 set @data_affected=0;
 
 call archive_table_data('Test_Table', 'created', 100, @data_affected);
-
+```
 
 **Result:**
 ```
