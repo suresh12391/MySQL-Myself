@@ -7,24 +7,24 @@ call archive_table_data('Test_Table', 'created', 100, @data_affected);
 
 
 **Result:**
-
+```
 +-----------------------------------+--------------+
 | tableName                         | affectedRows |
 +-----------------------------------+--------------+
 | Test_Table			    |           50 |
 +-----------------------------------+--------------+
 1 row in set (0.01 sec)
-
+```
 
 select @data_affected;
-
+```
 +----------------+
 | @data_affected |
 +----------------+
 |             50 |
 +----------------+
 1 row in set (0.00 sec)
-
+```
 
 ##### Other Resoure:
 
